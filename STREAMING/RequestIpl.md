@@ -9,6 +9,7 @@ void REQUEST_IPL(char* iplName);
 ```
 
 ```
+Requests interiors, which ones are not loaded by default.
 IPL list: pastebin.com/iNGLY32D  
 ```
 
