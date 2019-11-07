@@ -2,10 +2,10 @@
 ns: CFX
 apiset: server
 ---
-## GET_PLAYER_IDENTIFIER
+## GET_PLAYER_IDENTIFIERS
 
 ```c
-char* GET_PLAYER_IDENTIFIER(char* playerSrc, int identifier);
+char* GET_PLAYER_IDENTIFIERS(char* playerSrc, int identifier);
 ```
 
 
@@ -14,3 +14,8 @@ char* GET_PLAYER_IDENTIFIER(char* playerSrc, int identifier);
 * **identifier**: 
 
 ## Return value
+
+Old or wrong spelled version: 
+```c
+char* GET_PLAYER_IDENTIFIER(char* playerSrc, int identifier);
+```
